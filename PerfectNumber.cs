@@ -36,7 +36,7 @@ namespace Perfect
             for (int i = 1; i <= max; i++)
             {
                 WriteLine($"i:{i}");
-                int y = 0;  // 
+                int y = 0;  // Placeholder for potential perfect number
                 for (int x = 1; x < i; x++)
                 {
                     if (i % x == 0)
